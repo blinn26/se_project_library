@@ -41,6 +41,7 @@
   align-items: center;
   justify-content: space-between;
   column-gap: 20px;
+  margin-bottom: 0;
 }
 
 .nav__link {
@@ -218,18 +219,16 @@
   background-repeat: no-repeat;
   background-position: center;
   margin-right: 12px;
+  height: 24px;
+  width: 24px;
 }
 
 .event-info__icon_type_calendar {
   background-image: url(../images/icon_calendar.svg);
-  height: 24px;
-  width: 24px;
 }
 
 .event-info__icon_type_pin {
   background-image: url(../images/icon_pin.svg);
-  height: 24px;
-  width: 24px;
 }
 
 .event-info__text {
